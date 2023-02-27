@@ -5,3 +5,30 @@
     padding: 0;
     box-sizing: border-box;
 }
+
+:root {
+    /* Color styles */
+    --dark-gray: #2C3E50;
+    --green: #1ABC9C;
+    --white: #FFFFFF;
+    --light-gray: #3A546D;
+    --black: #333333;
+}
+
+
+/* header */
+header{
+    background-color: var(--dark-gray);
+}
+
+/* Main */
+
+/* Section hero */
+
+.green{
+    background-color: var(--green);
+}
+
+section.green img{
+    width: 100%;
+}
