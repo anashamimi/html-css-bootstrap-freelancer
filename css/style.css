@@ -15,6 +15,9 @@
     --black: #333333;
 }
 
+img{
+    width: 100%;
+}
 
 /* header */
 header{
@@ -25,7 +28,7 @@ header{
 
 /* Section hero */
 
-.ah-green{
+.ah-odd{
     background-color: var(--green);
 }
 
@@ -44,7 +47,13 @@ i.fa-star{
 }
 
 .ah-linea{
-    border-top: 5px solid var(--white);
+    border-top: 5px solid;
     width: 100px;
     border-radius: 20px;
+}
+
+/* section cards */
+
+#card{
+    color: var(--black);
 }
