@@ -25,10 +25,26 @@ header{
 
 /* Section hero */
 
-.green{
+.ah-green{
     background-color: var(--green);
 }
 
-section.green img{
-    width: 100%;
+.ah-card{
+    text-align: center;
+    color: var(--white);
+}
+
+.ah-card img{
+    width: 40%;
+}
+
+i.fa-star{
+    padding: 10px;
+    font-size: 1.5rem;
+}
+
+.ah-linea{
+    border-top: 5px solid var(--white);
+    width: 100px;
+    border-radius: 20px;
 }
