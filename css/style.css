@@ -63,7 +63,7 @@ i.fa-star{
 .ah-linea{
     border-top: 5px solid;
     border-radius: 20px;
-    width: 200px;
+    width: 15%;
 }
 
 /* section cards */
@@ -97,6 +97,17 @@ i.fa-star{
 .ah-img-container:hover:after{
     opacity: 1;
 }
+
+/* section about */
+
+#about .btn{
+    transition: background-color 0.5s;
+}
+
+#about .btn:hover{
+    background-color: var(--light-gray);
+}
+
 /* footer */
 
 
