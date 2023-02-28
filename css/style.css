@@ -24,6 +24,21 @@ header{
     background-color: var(--dark-gray);
 }
 
+/* Nav */
+
+#mynav a, .fa-bars{
+    color: var(--white);
+    transition: color 0.5s;
+}
+
+#mynav a:hover, .fa-bars:hover{
+    color: var(--green);
+}
+
+
+
+
+
 /* Main */
 
 /* Section hero */
@@ -38,7 +53,7 @@ header{
 }
 
 .ah-card img{
-    width: 40%;
+    max-width: 250px;
 }
 
 i.fa-star{
@@ -48,12 +63,40 @@ i.fa-star{
 
 .ah-linea{
     border-top: 5px solid;
-    width: 100px;
     border-radius: 20px;
+    width: 200px;
 }
 
 /* section cards */
 
-#card{
+.ah-black{
     color: var(--black);
 }
+
+.ah-img-container{
+    position: relative;
+    cursor: pointer;
+}
+
+.ah-img-container::after{
+    content: '+';
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 6rem;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color: rgba(26, 186, 156, 0.5);
+    opacity: 0;
+    transition: opacity 0.5s;
+    color: var(--white);
+}
+
+.ah-img-container:hover:after{
+    opacity: 1;
+}
+/* section contact me */
+

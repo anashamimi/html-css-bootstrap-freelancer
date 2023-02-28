@@ -20,24 +20,24 @@
 
 <body>
     <header>
-        <nav class="navbar navbar-expand-lg ">
-            <div class="container-fluid justify-content-between">
+        <nav class="navbar navbar-expand-md ">
+            <div class="container justify-content-between">
                 <a class="navbar-brand text-uppercase text-white" href="#">Start Bootstrap</a>
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
                     data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
                     aria-expanded="false" aria-label="Toggle navigation">
-                    <span class="navbar-toggler-icon"></span>
+                    <i class="fa-solid fa-bars"></i>
                 </button>
-                <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                <div class="collapse navbar-collapse" id="mynav">
+                    <ul class="navbar-nav ms-auto">
                         <li class="nav-item">
-                            <a class="nav-link text-uppercase text-white" href="#">Portfolio</a>
+                            <a class="nav-link text-uppercase" href="#">Portfolio</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link text-uppercase text-white" href="#">About</a>
+                            <a class="nav-link text-uppercase" href="#">About</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link text-uppercase text-white" href="#">Contact</a>
+                            <a class="nav-link text-uppercase" href="#">Contact</a>
                         </li>
                     </ul>
                 </div>
@@ -46,7 +46,7 @@
     </header>
     <main>
         <!-- Section hero -->
-        <section class="ah-odd">
+        <section class="ah-odd py-5">
             <div class="ah-card">
                 <img src="./bootstrap_freelancer/img/avatar.svg" class="card-img-top" alt="avatar">
                 <div>
@@ -66,9 +66,9 @@
         </section>
 
         <!-- Section cards-->
-        <section id="card" class="container-sm m-auto">
+        <section class="container-sm m-auto ah-black py-5">
 
-            <h3 class="text-uppercase text-center">Portfolio</h3>
+            <h2 class="text-uppercase text-center">Portfolio</h2>
 
             <div class="d-flex justify-content-center align-items-center ">
                 <div class="ah-linea"></div>
@@ -77,39 +77,111 @@
             </div>
 
 
-            <div class="row gap-3">
+            <div class="row g-3">
                 <div class="col-12 col-md-6 col-lg-4">
-                    <img class="rounded-4" src="./bootstrap_freelancer/img/cabin.png" alt="Casetta di legno">
+                    <div class="ah-img-container rounded-4 overflow-hidden">
+                        <img src="./bootstrap_freelancer/img/cabin.png" alt="Casetta di legno">
+                    </div>
+                    
                 </div>
                 <div class="col-12 col-md-6 col-lg-4">
-                    <img class="rounded-4" src="./bootstrap_freelancer/img/cake.png" alt="Tprta">
+                    <div class="ah-img-container rounded-4 overflow-hidden">
+                        <img class="rounded-4" src="./bootstrap_freelancer/img/cake.png" alt="Tprta">
+                    </div>
+                    
                 </div>
                 <div class="col-12 col-md-6 col-lg-4">
-                    <img class="rounded-4" src="./bootstrap_freelancer/img/circus.png" alt="Cicro">
+                    <div class="ah-img-container rounded-4 overflow-hidden">
+                        <img class="rounded-4" src="./bootstrap_freelancer/img/circus.png" alt="Cicro">
+                    </div>
+                    
                 </div>
                 <div class="col-12 col-md-6 col-lg-4">
-                    <img class="rounded-4" src="./bootstrap_freelancer/img/game.png" alt="Game Console">
+                    <div class="ah-img-container rounded-4 overflow-hidden">
+                        <img class="rounded-4" src="./bootstrap_freelancer/img/game.png" alt="Game Console">
+                    </div>
+                    
                 </div>
                 <div class="col-12 col-md-6 col-lg-4">
-                    <img class="rounded-4" src="./bootstrap_freelancer/img/safe.png" alt="Cassaforte">
+                    <div class="ah-img-container rounded-4 overflow-hidden">
+                        <img class="rounded-4" src="./bootstrap_freelancer/img/safe.png" alt="Cassaforte">
+                    </div>
+                    
                 </div>
                 <div class="col-12 col-md-6 col-lg-4">
-                    <img class="rounded-4" src="./bootstrap_freelancer/img/submarine.png" alt="Sottomarino">
+                    <div class="ah-img-container rounded-4 overflow-hidden">
+                        <img class="rounded-4" src="./bootstrap_freelancer/img/submarine.png" alt="Sottomarino">
+                    </div>
+                    
                 </div>
             </div>
 
         </section>
 
         <!-- section about -->
-        <section class="ah-odd text-white">
+        <section class="ah-odd text-white py-5">
 
-            <h3 class="text-uppercase text-center">About</h3>
+            <div class="container">
+                <h2 class="text-uppercase text-center">About</h2>
 
-            <div class="d-flex justify-content-center align-items-center">
+                <div class="d-flex justify-content-center align-items-center">
+                    <div class="ah-linea"></div>
+                    <i class="fa-solid fa-star"></i>
+                    <div class="ah-linea"></div>
+                </div>
+
+                <div>
+                    <p>Freelancer is a free bootstrap theme created by Start Boostrap. The download includes the
+                        complete
+                        source files including HTML, CSS, ans JavaScript as well as optional LESS stylesheets for easy
+                        customization.</p>
+
+                </div>
+                <div>
+                    <p>Whether you're a student looking to showcase your work, a professional looking to attract
+                        clients, or
+                        a graphic artist looking to share your projects, this template is the perfect starting point!
+                    </p>
+                </div>
+
+                <div class="text-center">
+                    <a class="btn text-white border border-white" href="#" role="button"><i class="fa-solid fa-download"></i> Download</a>
+                </div>                
+            </div>
+        </section>
+
+        <!-- Section contact me -->
+        <section class="ah-black container py-5">
+            <h2 class="text-uppercase text-center">Contact me</h2>
+
+            <div class="d-flex justify-content-center align-items-center ">
                 <div class="ah-linea"></div>
                 <i class="fa-solid fa-star"></i>
                 <div class="ah-linea"></div>
             </div>
+            <form>
+                <div class="mb-3">
+                    
+                    <input type="text" class="form-control-lg" id="user-name" name="user-name" placeholder="Name"> 
+                </div>
+
+                <div class="mb-3">
+                    <input type="email" class="form-control-lg" id="user-email" aria-describedby="emailHelp" name="user-email" placeholder="Email">
+                    <div id="emailHelp" class="form-text">We'll never share your email with anyone else.</div>
+                </div>
+
+                <div class="mb-3">
+                    <input type="password" class="form-control-lg" id="user-password" name="user-password" placeholder="Password">
+                </div>
+
+                <div class="mb-3">
+                    <label for="user-text" class="form-label">Enter a question</label>
+                    <textarea class="form-control" id="user-text" rows="2" name="user-text"></textarea>
+                  </div>
+
+
+                
+            </form>
         </section>
     </main>
     <footer>
