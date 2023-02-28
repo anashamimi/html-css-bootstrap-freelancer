@@ -35,10 +35,9 @@ header{
     color: var(--green);
 }
 
-
-
-
-
+.ah-hamburger-border{
+    border: 1px solid var(--white);
+}
 /* Main */
 
 /* Section hero */
