@@ -98,5 +98,34 @@ i.fa-star{
 .ah-img-container:hover:after{
     opacity: 1;
 }
-/* section contact me */
+/* footer */
 
+
+#ah-footer-top{
+    background-color: var(--light-gray);
+}
+
+#ah-footer-bottom{
+    background-color: var(--dark-gray);
+}
+
+.ah-circle{
+    width: 50px;
+    height: 50px;   
+    cursor: pointer;
+    transition: all 0.5s;
+}
+
+.ah-circle:hover{
+    background-color: var(--green);
+    opacity: 0.8;
+}
+
+.green{
+    color: var(--green);
+    cursor: pointer;
+}
+
+.green:hover{
+    text-decoration: underline;
+}
